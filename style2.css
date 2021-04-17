@@ -1,10 +1,159 @@
 body{
-    background-color: #f04242;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    zoom:initial;
+    
 }
-.home{
+
+/* .start{
+    width: 20px;
+    height: 20px;
+    animation-name: file1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+} */
+
+.hamburger {
     display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto 200px 450px 350px 200px;
+}
+.hamburger .outputimage {
+    /* background:url('main1.PNG') no-repeat center center ;
+    background-size: 400px; */
+    margin-top: 150px;
+    margin-left: 0px;
+    width: 400px;
+    height: 500px;
+    max-width: 90%;
+    background: no-repeat center center;
+    background-size: 400px;
+}
+
+.hamburger .logo {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.hamburger .numbering {
+    color: white;
+    font-family: Roboto;
+    margin-top: 175px ;
+    /* justify-content: center; */
+    display: grid;
+    grid-template-rows: 180px 18px 18px 18px;
+
+}
+
+.hamburger .names1 {
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+.hamburger .photos {
+    display: grid;
+    grid-template-rows: 18px 18px 18px 18px 18px;
+
+}
+.hamburger .names2{
+    display: grid;
+    grid-template-rows: 18px 18px 18px 18px 18px;
+
+}
+.main1{
+    opacity: 100%;
+}
+
+.main2{
+    opacity: 30%;
+}
+
+.main3{
+    opacity: 30%;
+}
+
+.main4{
+    opacity: 30%;
+}
+
+.main1:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.main2:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.main3:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.main4:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+    
+}
+.hamburger #photos {
+    display: flex;
+    flex-direction: column;
+}
+.hamburger .names2 {
+    color: white;
+    font-family: Roboto;
+}
+.P1{ 
+    opacity: 30%
+}
+.P2{ 
+    opacity: 30%
+}
+.P3{ 
+    opacity: 30%
+}
+.P4{ 
+    opacity: 30%
+}
+.P5{ 
+    opacity: 30%
+}
+.P1:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+    
+}
+.P2:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.P3:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.P4:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.P5:hover{
+    opacity: 100%;
+    transition:opacity 1s ease-out;
+}
+.main2:hover::before
+.outputimage {
+    background:url('main1.PNG') no-repeat center center ;
+    background-size: 400px;
+}
+
+
+
+.hamburger {
+    height: 100px;
 }
